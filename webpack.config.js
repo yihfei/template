@@ -11,6 +11,14 @@ module.exports = {
         clean: true,
 
     },
+    module: {
+        rules: [
+          {
+            test: /\.css$/i,
+            use: ['style-loader', 'css-loader'],
+          },
+        ],
+      },
     devServer: {
         watchFiles: ['src/**/*', 'src/*'],
         static: './dist',
