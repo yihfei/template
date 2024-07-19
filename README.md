@@ -1,2 +1,2 @@
-# weather-app
-A simple weather app creating using HTML, CSS and Javascript
+# Template
+A template repository I've created to speed up project configuration
